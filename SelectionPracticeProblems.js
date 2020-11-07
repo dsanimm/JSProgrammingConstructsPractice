@@ -1,4 +1,4 @@
-/*  //Read Number And Write In Words
+//Read Number And Write In Words
 let number=Math.floor(Math.random()*10);
 console.log('The number is : '+number);
 if(number==1){
@@ -55,7 +55,7 @@ if(input==1){
 }else if(input==1000){
     console.log('Thousand');
 }else
-console.log('Not in unit,ten,hundred,thousand !'); */
+console.log('Not in unit,ten,hundred,thousand !'); 
 // Find Max Min after arithmetic operation
 const myArgs=process.argv.slice(2);
 let a=parseInt(myArgs[0]);
