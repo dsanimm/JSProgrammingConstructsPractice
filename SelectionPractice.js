@@ -1,4 +1,4 @@
-/*  //Take the 5 random 3 digit numbers and find max min
+  //Take the 5 random 3 digit numbers and find max min
 let a = Math.floor(Math.random() * 200) +100;
 console.log(a);
 let b = Math.floor(Math.random() * 200) +100;
@@ -44,7 +44,8 @@ console.log('Year is : '+year);
 if((year%4 == 0 && year%100 != 0)||(year%400 == 0)){
     console.log('This Year '+year+' is Leap Year !');
 }else
-console.log('This Year '+year+' is Not Leap Year !'); */
+console.log('This Year '+year+' is Not Leap Year !'); 
+// Find if heads or tails
 let a = Math.floor(Math.random() * 2)>0 ? "heads" : "tails" ;
 console.log(a);
 
